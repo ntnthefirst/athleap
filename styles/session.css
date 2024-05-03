@@ -1,0 +1,264 @@
+:root {
+  --subcolor: #222222;
+  --maincolor: #f7f7f7;
+  --boxcolor: #ffffff;
+
+  --titel_font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --text_font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --button_font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  --nav_text_color: #ffffff;
+
+  --main_text_color: #000000;
+  --header_text_color: #333333;
+}
+body {
+  background-color: var(--maincolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#outercicle {
+  width: 80%;
+  max-width: 80vh;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 10px 0 #00000040;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+#innercicle {
+  position: relative;
+
+  box-sizing: border-box;
+
+  width: 95%;
+  aspect-ratio: 1/1;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 #00000050;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+#innercicle h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+#subbuttons {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#subbuttons button {
+  width: 90px;
+  height: 32px;
+
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+
+  background-color: transparent;
+  border: none;
+  border: 1px solid lightgray;
+
+  cursor: pointer;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+#subbuttons button:hover {
+  box-shadow: inset 0 2px 2px rgba(156, 156, 156, 0.8);
+}
+#subbuttons button:first-child {
+  border-radius: 10px 0 0 20px;
+}
+#subbuttons button:last-child {
+  border-radius: 0 10px 20px 0;
+}
+#tempo {
+  position: absolute;
+  bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tempo p {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+#tempobox {
+  display: flex;
+}
+#tempobox div {
+  height: 11px;
+  width: 30px;
+  border-radius: 5px;
+  margin: 3px;
+
+  box-shadow: inset 0 0 5px 0 rgb(175, 175, 175);
+}
+#tempobox div.actif {
+  background-color: rgb(255, 0, 76);
+}
+.sidebox {
+  position: absolute;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebox label {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #666666;
+}
+#power {
+  left: 20px;
+}
+#condition {
+  right: 20px;
+}
+.cilinder {
+  width: 10px;
+  height: 80%;
+  border-radius: 5px;
+  box-shadow: inset 0 0 2px 0 #d0d0d0;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+#overlay button {
+  background-color: transparent;
+  box-shadow: 0 1px 5px 0 rgb(158, 157, 157),
+    inset 0 -1px 8px rgb(211, 210, 210);
+  border: 1px solid rgb(206, 199, 199);
+  border-radius: 500px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: all 1s ease;
+}
+#overlay button:hover {
+  box-shadow: inset 1px 2px 5px 0 rgb(189, 189, 189);
+}
+#timing {
+  position: absolute;
+  top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#timing p {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+#localtimeline {
+  width: 200px;
+  height: 18px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 2px 0 rgb(189, 189, 189);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  overflow: hidden;
+
+  box-sizing: content-box;
+}
+#localprogress {
+  height: 100%;
+  width: 30%;
+  background-color: green;
+  transition: width 1s ease;
+}
+#timeline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(0, 38, 255);
+}
+
+#totalprogress {
+  height: 100%;
+  background-color: #00c8ff;
+  box-shadow: 5px 0 5px  #a6cdd8;
+  transition: width 0.3s ease-in-out;
+}
+#nextbox {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+
+  width: 200px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 20px 20px 0 0;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgb(199, 201, 210);
+  transition: transform 1s ease;
+}
+#nextbox h1 {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+

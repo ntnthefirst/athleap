@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/session.css">
+
+    <script src="../funtions/session.js"></script>
+    
+    <title>Athleap - Sessie</title>
+</head>
+<body>
+    <div id="timeline">
+        <div id="totalprogress"></div>
+      </div>
+    <div id="outercicle">
+        <div id="innercicle">
+            <div id="timing">
+                <p id="localtime">1:10</p>
+                <div id="localtimeline">
+                    <div id="localprogress"></div>
+                </div>
+            </div>
+            <div style="display: none;" class="sidebox" id="power"><p></p><div id="powerbar" class="cilinder"></div><label for="powerbar">Vermogen</label></div>
+            <div style="display: none;" class="sidebox" id="condition"><p></p><div id="conditionbar" class="cilinder"></div><label for="conditionbar">Conditie</label></div>
+            <div id="main">
+                <h1 id="title">TEST</h1>
+            </div>
+            <div id="tempo">
+                <div id="tempobox">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="actif"></div>
+                </div>
+                <p>BPM</p>
+            </div>
+            <div id="subbuttons"><button onclick="pause()" id="pause">Pauze</button><button onclick="skip()">overslaan</button></div>
+        </div>
+    </div>
+    <div id="nextbox" style="transform: translateY(100%);">
+        <h1>test</h1>
+        <p>time: <span id="nexttime">50</span></p>
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "info" : {
+        "title" : "mei challange",
+        "description" : "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
+        "excersizecount" : 8
+    },
+    "properties" : {
+        "autoscroll" : false,
+        "skipping" : true,
+        "randomize" : false
+    },
+    "exercises" : [
+
+    ]
+
+}

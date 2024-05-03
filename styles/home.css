@@ -1,0 +1,159 @@
+:root {
+    /* Kleurdefinities */
+    --background_color: #272a2b; /* Donkerblauwe achtergrond */
+    --header:#090a1b;
+    --thema1: #64dd17; /* Fel groen */
+    --thema2: #ff1744; /* Fel rood */
+    --thema3: #00b0ff; /* Fel blauw */
+    --thema4: #ff6d00; /* Fel oranje */
+    --button_color: #ff00f795;
+    --zwart: #000;
+    --wit: #fff;
+    --text_color: #fff; /* Witte tekst */
+
+    --subtitel_font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --text_font: 'Quicksand', sans-serif;
+}
+
+
+
+body{
+    background-color: var(--background_color);
+    color: var(--text_color);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header{
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background-color:transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-shadow: 0 0 10px  var(--text_color);
+}
+header > * {
+    text-align: center;
+    margin: 0 100px 0 120px;
+}
+nav{
+    font-family:var(--text_font) ;
+    font-weight:100;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text_color);
+    height: 90%;
+    margin-right: 10px;
+    padding-right: 20px;
+    border-right:2px white solid;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+main{
+    width: 100%;
+}
+/* zij kleuren */
+main > *:nth-child(1) {
+    background: linear-gradient(90deg, var(--thema1) 0%, #00000000 5%, #00000000 95%, var(--thema1) 100%);
+}
+main > *:nth-child(2) {
+    background: linear-gradient(90deg, var(--thema2) 0%, #00000000 5%, #00000000 95%, var(--thema2) 100%);
+}
+main > *:nth-child(3) {
+    background: linear-gradient(90deg, var(--thema3) 0%, #00000000 5%, #00000000 95%, var(--thema3) 100%);
+}
+main > *:nth-child(4) {
+    background: linear-gradient(90deg, var(--thema4) 0%, #00000000 5%, #00000000 95%, var(--thema4) 100%);
+}
+
+
+section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h2{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--subtitel_font);
+    font-size: 70px;
+}
+.container{
+    width: 70%;
+    min-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    height: 70vh; /* Hoogte van de box */
+    background-color: rgba(191, 238, 250, 0.3); /* Halftransparante witte achtergrond */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Halftransparante witte rand */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Zachte schaduw */
+    backdrop-filter: blur(20px); /* Achtergrondfilter voor het glaseffect */
+    border-radius: 10px; /* Afgeronde hoeken */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+.box h3{
+    font-size: 35px;
+    font-family: var(--subtitel_font);
+}
+.box p{
+    font-family: var(--text_font);
+    text-align: center;
+    font-size: 25px;
+}
+.box article{
+    font-family: var(--text_font);
+    text-align: center;
+    font-size: 20px;
+}
+.box:hover {
+    box-shadow: 0px 0px 25px 0 var(--thema3);
+}
+.box button{
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 2px solid var(--button_color);
+    background-color: rgba(114, 107, 114, 0.478);
+    transition: 450ms;
+}
+.box button:hover{
+    box-shadow: 0 0px 15px 0px var(--button_color); /* Zachte schaduw */
+    border: none;
+    background-color: var(--button_color);
+}
+
+

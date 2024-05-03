@@ -1,0 +1,26 @@
+{
+    "info" : {
+        "title" : "mei challange",
+        "description" : "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
+        "excersizecount" : 10
+    },
+    "properties" : {
+        "autoscroll" : false,
+        "skipping" : true,
+        "randomize" : false
+    },
+    "exercises": [
+        {"tag": "Jump Squats", "time": 45, "tempo": 30, "type": "actif", "media": null},
+        {"tag": "Walking Lunges", "time": 60, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Single Leg Glute Bridges (Rechts)", "time": 45, "tempo": 15, "type": "actif", "media": null},
+        {"tag": "Single Leg Glute Bridges (Links)", "time": 45, "tempo": 15, "type": "actif", "media": null},
+        {"tag": "Box Jumps (met stoel)", "time": 40, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Sumo Squats", "time": 60, "tempo": 25, "type": "actif", "media": null},
+        {"tag": "Fire Hydrants (Rechts)", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Fire Hydrants (Links)", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Jump Lunges", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Jump Squat Hold", "time": 45, "tempo": 15, "type": "actif", "media": null}
+      ]
+    
+
+}

@@ -1,0 +1,25 @@
+{
+    "info" : {
+        "title" : "mei challange",
+        "description" : "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
+        "excersizecount" : 10
+    },
+    "properties" : {
+        "autoscroll" : false,
+        "skipping" : true,
+        "randomize" : false
+    },
+    "exercises": [
+        {"tag": "Jumping Jacks", "time": 60, "tempo": 30, "type": "actif", "media": null},
+        {"tag": "Arm Cirkels", "time": 60, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Push-Ups", "time": 45, "tempo": 25, "type": "actif", "media": null},
+        {"tag": "Tricep Dips", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Bicep Curls", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Shoulder Press", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Plank with Alternating Arm Raise", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Diamond Push-Ups", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Superman", "time": 45, "tempo": 20, "type": "actif", "media": null},
+        {"tag": "Shoulder Taps", "time": 45, "tempo": 20, "type": "actif", "media": null}
+    ]
+
+}
