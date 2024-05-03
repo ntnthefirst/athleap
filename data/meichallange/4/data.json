@@ -10,16 +10,16 @@
         "randomize" : false
     },
     "exercises": [
-        {"tag": "Jumping Jacks", "time": 60, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Arm Cirkels", "time": 60, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Push-Ups", "time": 45, "tempo": 25, "type": "actif", "media": null},
-        {"tag": "Tricep Dips", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Bicep Curls", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Shoulder Press", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Plank with Alternating Arm Raise", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Diamond Push-Ups", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Superman", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Shoulder Taps", "time": 45, "tempo": 20, "type": "actif", "media": null}
+        {"tag": "Jumping Jacks", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": "Jumping_Jacks"},
+        {"tag": "Arm Cirkels", "time": 60, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Push-Ups", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": "pushups"},
+        {"tag": "Tricep Dips", "time": 45, "tempo": "Snel", "type": "actief", "media": "tricep_dips"},
+        {"tag": "Bicep Curls", "time": 45, "tempo": "Snel", "type": "actief", "media": "bicep_curls"},
+        {"tag": "Shoulder Press", "time": 45, "tempo": "Snel", "type": "actief", "media": "shoulder_press"},
+        {"tag": "Planking", "time": 45, "tempo": "Snel", "type": "actief", "media": "planking"},
+        {"tag": "Diamond Push-Ups", "time": 45, "tempo": "Langzaam", "type": "actief", "media": "diamond_pushups"},
+        {"tag": "Superman", "time": 45, "tempo": "Snel", "type": "actief", "media": "superman"},
+        {"tag": "Shoulder Taps", "time": 45, "tempo": "Snel", "type": "actief", "media": "shoulder_taps"}
     ]
 
 }

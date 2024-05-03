@@ -9,19 +9,19 @@
         "skipping" : true,
         "randomize" : false
     },
-    "exercises" : [
-        {"tag": "ter plaatse lopen", "time": 60, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Knieheffen", "time": 60, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Jumping Squats", "time": 45, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Lunges", "time": 60, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Glute Bridges", "time": 45, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Calf Raises", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Right)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Left)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Plie Squats", "time": 60, "tempo": 25, "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Right)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Left)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Squat Pulses", "time": 45, "tempo": 15, "type": "actif", "media": null}
+    "exercises": [
+        {"tag": "ter plaatse lopen", "time": 60, "tempo": "Snel", "type": "actief", "media": null},
+        {"tag": "Knieheffen", "time": 60, "tempo": "Snel", "type": "actief", "media": null},
+        {"tag": "Jumping Squats", "time": 45, "tempo": "Snel", "type": "actief", "media": null},
+        {"tag": "Lunges", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Glute Bridges", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Calf Raises", "time": 40, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Side Leg Raises (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Side Leg Raises (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Plie Squats", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Donkey Kicks (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Donkey Kicks (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Squat Pulses", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null}
     ]
 
 }

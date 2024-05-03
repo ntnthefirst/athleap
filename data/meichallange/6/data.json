@@ -10,15 +10,15 @@
         "randomize" : false
     },
     "exercises": [
-        {"tag": "Wall Push-Ups", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Bodyweight Squats (met stoel als ondersteuning)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Knee Plank", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "ter plaatse lopen", "time": 60, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Seated Leg Raises", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Bent-Over Arm Raises (met waterflesjes)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Standing Leg Curl (met stoel als ondersteuning)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Arm Circles", "time": 45, "tempo": 20, "type": "actif", "media": null}
-      ]
+        {"tag": "Wall Push-Ups", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Bodyweight Squats ", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Knee Plank", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "ter plaatse lopen", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Seated Leg Raises", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Bent-Over Arm Raises (met waterflesjes)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Standing Leg Curl ", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Arm Cirkels", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null}
+    ]
 
 }

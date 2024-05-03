@@ -10,16 +10,15 @@
         "randomize" : false
     },
     "exercises": [
-        {"tag": "Wall Sit", "time": 30, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Hip Bridges", "time": 45, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Calf Raises (op verhoog)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Rechts)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Links)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Squats", "time": 45, "tempo": 25, "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Rechts)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Links)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Squat Pulses", "time": 45, "tempo": 15, "type": "actif", "media": null}
-      ]
-
+        {"tag": "Wall Sit", "time": 30, "tempo": "Gemiddeld", "type": "actif", "media": null},
+        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Hip Bridges", "time": 45, "tempo": "Langzaam", "type": "actif", "media": null},
+        {"tag": "Calf Raises (op verhoog)", "time": 40, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Side Leg Raises (Rechts)", "time": 40, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Side Leg Raises (Links)", "time": 40, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Squats", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
+        {"tag": "Donkey Kicks (Rechts)", "time": 40, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Donkey Kicks (Links)", "time": 40, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Squat Pulses", "time": 45, "tempo": "Langzaam", "type": "actif", "media": null}
+    ]
 }

@@ -10,16 +10,16 @@
         "randomize" : false
     },
     "exercises": [
-        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Incline Push-Ups (met stoel)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Bodyweight Squats", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Plank (op de knieën)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Mountain Climbers (rustig tempo)", "time": 45, "tempo": 25, "type": "actif", "media": null},
-        {"tag": "Tricep Dips (met stoel)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Leg Raises (met gebogen knieën)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Superman (met lichte spanning)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Squats (met stoel als ondersteuning)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Russian Twists (met licht gewicht of zonder gewicht)", "time": 45, "tempo": 20, "type": "actif", "media": null}
-      ]
+        {"tag": "Step-Ups (met stoel)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Incline Push-Ups (met stoel)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Bodyweight Squats", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Plank (op de knieën)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Mountain Climbers", "time": 45, "tempo": "Snel", "type": "actief", "media": null},
+        {"tag": "Tricep Dips (met stoel)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Leg Raises (met gebogen knieën)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Superman", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Squats (met stoel als ondersteuning)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Russian Twists", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null}
+    ]
 
 }

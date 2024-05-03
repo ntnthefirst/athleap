@@ -10,17 +10,17 @@
         "randomize" : false
     },
     "exercises": [
-        {"tag": "Jump Squats", "time": 45, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Walking Lunges", "time": 60, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Single Leg Glute Bridges (Rechts)", "time": 45, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Single Leg Glute Bridges (Links)", "time": 45, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Box Jumps (met stoel)", "time": 40, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Sumo Squats", "time": 60, "tempo": 25, "type": "actif", "media": null},
-        {"tag": "Fire Hydrants (Rechts)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Fire Hydrants (Links)", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Jump Lunges", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Jump Squat Hold", "time": 45, "tempo": 15, "type": "actif", "media": null}
-      ]
+        {"tag": "Jump Squats", "time": 45, "tempo": "Snel", "type": "actief", "media": null},
+        {"tag": "Walking Lunges", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Single Leg Glute Bridges (Rechts)", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Single Leg Glute Bridges (Links)", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Box Jumps (met stoel)", "time": 40, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Sumo Squats", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Fire Hydrants (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Fire Hydrants (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Jump Lunges", "time": 45, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Jump Squat Hold", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null}
+    ]
     
 
 }

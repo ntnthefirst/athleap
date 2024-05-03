@@ -111,20 +111,27 @@ function newexcersize() {
     refresh()
     currentExcerice = data.exercises[excersizeIndex]
 
-    settempo()
-
     var titleElement = document.getElementById("title")
     titleElement.innerHTML = currentExcerice.tag
     
+    var tempotext = document.getElementById("tempo").querySelector("p");
+    tempotext.innerHTML = "<strong>" + currentExcerice.tempo + "</strong> tempo"
+    var tempoElements = document.getElementById("tempobox").querySelectorAll("div");
+    tempoElements.forEach(function (tempoElement, index) {
+        tempoElement.style.opacity = (currentExcerice.tempo === ["Langzaam", "Gemiddeld", "Snel", ""][index]) ? 1 : 0.2;
+    });
+
     var nextbox = document.getElementById("nextbox")
     console.log(totalexsersizecount);
     console.log(excersizeIndex);
     if (excersizeIndex+1 != totalexsersizecount) {
         nextbox.querySelector("h1").innerHTML = data.exercises[excersizeIndex+1].tag
+        nextbox.querySelector("p").innerHTML = data.exercises[excersizeIndex+1].time + " seconden"
     }else{
         nextbox.querySelector("h1").innerHTML = "EINDE!!"
-
+        nextbox.querySelector("p").style.display = "none"
     }
+    media_handler()
 }
 var generalTimer;
 function mainclock() {
@@ -143,34 +150,33 @@ function ending() {
     }
 }
 
-var tempoId; 
+var mediaclockid;
+function media_handler() {
+    var currentmediapath = currentExcerice.media;
+    var mediaElement = document.getElementById("media");
+    if (currentmediapath) {
+        mediaElement.removeAttribute("style")
+        fetch("../assets/excersize/" + currentmediapath + ".svg")
+            .then(response => response.text())
+            .then(svgData => {
+                // SVG toevoegen aan de DOM
+                mediaElement.innerHTML = svgData;
+                mediaElement.querySelector("svg").style.width = "100%"
+                mediaElement.querySelector("svg").style.height = "100%"
 
-function settempo() {
-    temprelay = (60/currentExcerice.tempo) * 1000
-    var tempotext = document.getElementById("tempo").querySelector("p")
-    tempotext.innerHTML = currentExcerice.tempo + "BPM"
-    var box = document.getElementById("tempobox")
-    var items = box.querySelectorAll("div")
-
-    if (tempoId) {
-        clearInterval(tempoId);
+            })
+            .catch(error => console.error("Er is een fout opgetreden bij het laden van de SVG afbeelding:", error));
+    } else {
+        mediaElement.style.display = "none";
     }
-
-    var beatindex = 0;
-    tempoId = setInterval(() => {
-        if (!paused) {
-            beatindex ++;
-        }
-        if (beatindex == 4) {
-            beatindex = 0;
-        }
-        items.forEach(function (item) {
-            item.removeAttribute("class")
-        })
-        items[beatindex].className = "actif"
-        
-    }, (temprelay/4));
 }
+
+
+
+
+
+
+
 
 function refresh() {
     var localTimeLineELement = document.getElementById("localprogress")

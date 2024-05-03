@@ -9,17 +9,17 @@
         "skipping" : true,
         "randomize" : false
     },
-    "exercises" : [
-        {"tag": "Hoge Knieën", "time": 30, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Jumping Jacks", "time": 40, "tempo": 40, "type": "actif", "media": null},
-        {"tag": "Burpees", "time": 30, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Pompen", "time": 30, "tempo": 15, "type": "actif", "media": null},
-        {"tag": "Arm Cirkels", "time": 45, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Mountain Climbers", "time": 35, "tempo": 40, "type": "actif", "media": null},
-        {"tag": "Squats", "time": 60, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Planken", "time": 40, "tempo": 30, "type": "actif", "media": null},
-        {"tag": "Leg Raises", "time": 30, "tempo": 20, "type": "actif", "media": null},
-        {"tag": "Knie Pompen", "time": 60, "tempo": 15, "type": "actif", "media": null}
+    "exercises": [
+        {"tag": "Hoge Knieën", "time": 30, "tempo": "Snel", "type": "actief", "media": "high_knees"},
+        {"tag": "Jumping Jacks", "time": 40, "tempo": "Heel Snel", "type": "actief", "media": "Jumping_Jacks"},
+        {"tag": "Burpees", "time": 30, "tempo": "Heel Snel", "type": "actief", "media": null},
+        {"tag": "Pompen", "time": 30, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Arm Cirkels", "time": 45, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Mountain Climbers", "time": 35, "tempo": "Heel Snel", "type": "actief", "media": null},
+        {"tag": "Squats", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Planken", "time": 40, "tempo": "Langzaam", "type": "actief", "media": null},
+        {"tag": "Leg Raises", "time": 30, "tempo": "Gemiddeld", "type": "actief", "media": null},
+        {"tag": "Knie Pompen", "time": 60, "tempo": "Gemiddeld", "type": "actief", "media": null}
     ]
 
 }
