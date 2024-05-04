@@ -37,17 +37,7 @@ function loadworkout(workoutlocation) {
             console.log(data);
             dataloaded(data);
         })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-            h1Element.innerHTML = "OEPS.. ER GING IETS MIS"
-            var closebutton = document.createElement('button');
-            closebutton.innerHTML = "sluit";
-            closebutton.onclick = function () {
-                removepupup()
-            }
-            popupElement.appendChild(closebutton);
-
-        });
+        
     }
     loaddata()
 
