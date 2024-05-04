@@ -1,0 +1,29 @@
+{
+    "info" : {
+        "title" : "Leg Day",
+        "description" : "Duw jezelf naar nieuwe hoogten. Voel de intensiteit terwijl je je onderlichaam tot het uiterste pusht. Geen excuses, alleen toewijding aan het bouwen van krachtige benen. Dus kom op, laat zien wat je waard bent!",
+        "niveau" : 3
+    },
+    "properties" : {
+        "autoscroll" : true,
+        "skipping" : true,
+        "randomize" : false
+    },
+    "exercises": [
+        {"tag": "ter plaatse lopen", "time": 60, "tempo": "Snel", "type": "actif", "media": null},
+        {"tag": "Knieheffen", "time": 60, "tempo": "Snel", "type": "actif", "media": "high_knees"},
+        {"tag": "rust", "time": 60,"type": "rest", "media": null},
+        {"tag": "Jumping Squats", "time": 45, "tempo": "Snel", "type": "actif", "media": "jumping_squats"},
+        {"tag": "Lunges", "time": 60, "tempo": "Gemiddeld", "type": "actif", "media": "lunges"},
+        {"tag": "Glute Bridges", "time": 45, "tempo": "Langzaam", "type": "actif", "media": null},
+        {"tag": "Calf Raises", "time": 40, "tempo": "Gemiddeld", "type": "actif", "media": null},
+        {"tag": "rust", "time": 60,"type": "rest", "media": null},
+        {"tag": "Side Leg Raises (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": "side_leg_raises"},
+        {"tag": "Side Leg Raises (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": "side_leg_raises"},
+        {"tag": "Plie Squats", "time": 60, "tempo": "Gemiddeld", "type": "actif", "media": "plie_squats"},
+        {"tag": "rust", "time": 60,"type": "rest", "media": null},
+        {"tag": "Donkey Kicks (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": "donkey_kicks"},
+        {"tag": "Donkey Kicks (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": "donkey_kicks"}
+    ]
+
+}

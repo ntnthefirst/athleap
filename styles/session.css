@@ -76,7 +76,7 @@ body {
 }
 
 #media{
-  height: 100%;
+  height: 80%;
 }
 #subbuttons {
   position: absolute;
@@ -245,17 +245,17 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 20px;
+  height: 30px;
   background-color: #f0f0f0;
   overflow: hidden;
-  border-bottom: 1px solid rgb(0, 38, 255);
+  border-bottom: 1px solid rgb(163, 163, 163);
 }
 
 #totalprogress {
   height: 100%;
-  background-color: #00c8ff;
-  box-shadow: 5px 0 5px #a6cdd8;
-  transition: width 0.3s ease-in-out;
+  background-color: #0a9371;
+  box-shadow: 5px 0 5px #7ceda9;
+  transition: width 1s ease-in-out;
 }
 #nextbox {
   position: fixed;

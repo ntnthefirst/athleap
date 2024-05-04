@@ -21,7 +21,7 @@ function loaddata() {
     }else{
         timing = xtiming
     }
-    fetch(datalocation + '/data.json')
+    fetch(datalocation + '.json')
         .then(response => {
             if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -106,20 +106,33 @@ function exsersize_handler() {
     refresh()
 }
 function newexcersize() {
+    currentExcerice = data.exercises[excersizeIndex]
     particle.pulse_green()
     localcount = 0;
     refresh()
-    currentExcerice = data.exercises[excersizeIndex]
 
     var titleElement = document.getElementById("title")
     titleElement.innerHTML = currentExcerice.tag
+
+    if (currentExcerice.type == "actif") {
+        var tempotext = document.getElementById("tempo").querySelector("p");
+        tempotext.innerHTML = "<strong>" + currentExcerice.tempo + "</strong> tempo"
+        var tempoElements = document.getElementById("tempobox").querySelectorAll("div");
+        tempoElements.forEach(function (tempoElement, index) {
+            tempoElement.style.opacity = (currentExcerice.tempo === ["Langzaam", "Gemiddeld", "Snel", ""][index]) ? 1 : 0.2;
+        });
+        media_handler()
+    }else if(currentExcerice.type == "rest"){
+        document.getElementById("tempo").querySelector("p").innerHTML = ""
+        var tempoElements = document.getElementById("tempobox").querySelectorAll("div");
+        tempoElements.forEach(function (tempoElement, index) {
+            tempoElement.style.opacity = 0.2;
+        });
+        particle.pulse_blue()
+    }
     
-    var tempotext = document.getElementById("tempo").querySelector("p");
-    tempotext.innerHTML = "<strong>" + currentExcerice.tempo + "</strong> tempo"
-    var tempoElements = document.getElementById("tempobox").querySelectorAll("div");
-    tempoElements.forEach(function (tempoElement, index) {
-        tempoElement.style.opacity = (currentExcerice.tempo === ["Langzaam", "Gemiddeld", "Snel", ""][index]) ? 1 : 0.2;
-    });
+    
+    
 
     var nextbox = document.getElementById("nextbox")
     console.log(totalexsersizecount);
@@ -131,7 +144,7 @@ function newexcersize() {
         nextbox.querySelector("h1").innerHTML = "EINDE!!"
         nextbox.querySelector("p").style.display = "none"
     }
-    media_handler()
+    
 }
 var generalTimer;
 function mainclock() {
@@ -205,9 +218,11 @@ function pause() {
     if (paused) {
         paused = false;
         pausebutton.removeAttribute("style")
+        particle.pulse_green()
     }else{
         paused = true;
         pausebutton.style.boxShadow = "inset 0 2px 8px 0 #333333"
+        particle.pulse_blue()
     }   
 }
 
@@ -227,9 +242,23 @@ particle = {
     pulse_green: function() {
         var outercicle = document.getElementById("outercicle");
         var innercicle = document.getElementById("innercicle");
-        innercicle.style.boxShadow = "0 0 50px 0 #20ff10";
+        innercicle.style.boxShadow = "0 0 50px 0 #50e000";
         setTimeout(function() {
             outercicle.style.boxShadow = "0 0 70px 15px #20ff10";
+        }, 200);
+        setTimeout(function() {
+            innercicle.removeAttribute("style");
+        }, 500);
+        setTimeout(function() {
+            outercicle.removeAttribute("style");
+        }, 600);
+    },
+    pulse_blue: function() {
+        var outercicle = document.getElementById("outercicle");
+        var innercicle = document.getElementById("innercicle");
+        innercicle.style.boxShadow = "0 0 50px 0 #005090";
+        setTimeout(function() {
+            outercicle.style.boxShadow = "0 0 70px 15px #00c8ff";
         }, 200);
         setTimeout(function() {
             innercicle.removeAttribute("style");

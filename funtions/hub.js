@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
     loadbanner()
+    loadin()
 });
 
 function loadbanner() {
@@ -25,7 +26,7 @@ function loadworkout(workoutlocation) {
     popupElement.appendChild((h1Element));
 
     function loaddata() {
-        fetch(location + '/data.json')
+        fetch(location + '.json')
         .then(response => {
             if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -58,23 +59,31 @@ function loadworkout(workoutlocation) {
         titel.innerText = data.info.title;
         popupElement.appendChild(titel);
     
-        const labels = {
-            "description": "Beschrijving",
-            "excersizecount": "Aantal oefeningen"
-        };
-    
-        Object.keys(data.info).forEach(key => {
-            if (key !== "title") {
-                const label = document.createElement("label");
-                label.innerText = labels[key] ? labels[key] + ": " : key + ": ";
-                popupElement.appendChild(label);
-    
-                const content = document.createElement("p");
-                content.innerText = data.info[key];
-                popupElement.appendChild(content);
-    
-            }
-        });
+        const niveauLabel = document.createElement("label")
+        const niveauP = document.createElement("p")
+        niveauLabel.innerText = "Niveau"
+        niveauP.innerText = data.info.niveau
+        popupElement.appendChild(niveauLabel)
+        popupElement.appendChild(niveauP)
+
+        const timeLabel = document.createElement("label");
+        const timeP = document.createElement("p");
+        var totaltime = 0;
+        data.exercises.forEach(function (exercise) {
+            totaltime += exercise.time;
+        })
+        timeLabel.innerText = "duurtijd"
+        timeP.innerText = Math.round(totaltime/60) + " min"
+        popupElement.appendChild(timeLabel)
+        popupElement.appendChild(timeP)
+
+        const descriptionLabel = document.createElement("label");
+        const descriptionP = document.createElement("p")
+        descriptionLabel.innerText = "Beschrijving";
+        descriptionP.innerText = data.info.description
+        popupElement.appendChild(descriptionLabel)
+        popupElement.appendChild(descriptionP)
+        
         const extradiv = document.createElement("div")
 
 
@@ -97,6 +106,45 @@ function loadworkout(workoutlocation) {
         
         popupElement.appendChild(extradiv);
     }
+    
+}
+function loadin() {
+    var sectionElements = document.querySelector("main").querySelectorAll("section");
+    sectionElements.forEach(function (sectionElement) {
+        const location = sectionElement.getAttribute("data-location")
+        if (location) {
+            fetch("../data/" + location + '.json')
+            .then(response => {
+                if (!response.ok) {
+                throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                runme(data);
+            })
+            }else{
+                console.error("fout bij het laden van attribuut")
+            }
+        function runme(data) {
+            var totaltime = 0;
+            data.exercises.forEach(function (exercise) {
+                totaltime += exercise.time;
+            })
+            const figureElement = document.createElement("figure")
+            figureElement.innerText = Math.round(totaltime/60) + " min | niveau " + data.info.niveau; 
+            sectionElement.appendChild(figureElement)
+            
+            const pElement = document.createElement("p")
+            pElement.innerText = data.info.description;
+            sectionElement.appendChild(pElement);
+
+            const buttonElement = document.createElement("button");
+            buttonElement.innerText = "Check-it!"
+            buttonElement.setAttribute("onclick", "loadworkout('" + location +"')")
+            sectionElement.appendChild(buttonElement)
+        }
+    })
     
 }
 function popup() {
