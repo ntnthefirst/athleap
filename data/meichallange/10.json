@@ -1,27 +1,91 @@
 {
-    "info" : {
-        "title" : "mei challange",
-        "description" : "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
-        "excersizecount" : 10
+    "info": {
+        "title": "mei challange",
+        "description": "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
+        "niveau": 10
     },
-    "properties" : {
-        "autoscroll" : false,
-        "skipping" : true,
-        "randomize" : false
+    "properties": {
+        "autoscroll": false,
+        "skipping": true,
+        "randomize": false
     },
     "exercises": [
-        {"tag": "ter plaatse lopen", "time": 60, "tempo": "Snel", "type": "actif", "media": null},
-        {"tag": "Knieheffen", "time": 60, "tempo": "Snel", "type": "actif", "media": null},
-        {"tag": "Jumping Squats", "time": 45, "tempo": "Snel", "type": "actif", "media": null},
-        {"tag": "Lunges", "time": 60, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Glute Bridges", "time": 45, "tempo": "Langzaam", "type": "actif", "media": null},
-        {"tag": "Calf Raises", "time": 40, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Side Leg Raises (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Plie Squats", "time": 60, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Rechts)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Donkey Kicks (Links)", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Squat Pulses", "time": 45, "tempo": "Langzaam", "type": "actif", "media": null}
+        {
+            "tag": "ter plaatse lopen",
+            "time": 60,
+            "tempo": "Snel",
+            "type": "actif",
+            "media": null
+        },
+        {
+            "tag": "Knieheffen",
+            "time": 60,
+            "tempo": "Snel",
+            "type": "actif",
+            "media": "high_knees"
+        },
+        {
+            "tag": "Jumping Squats",
+            "time": 45,
+            "tempo": "Snel",
+            "type": "actif",
+            "media": "squads_jumping"
+        },
+        {
+            "tag": "Lunges",
+            "time": 60,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "lunges"
+        },
+        {
+            "tag": "Glute Bridges",
+            "time": 45,
+            "tempo": "Langzaam",
+            "type": "actif",
+            "media": "glute_bridges"
+        },
+        {
+            "tag": "Calf Raises",
+            "time": 40,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "calf_raises"
+        },
+        {
+            "tag": "Side Leg Raises (Rechts)",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "leg_raises_side"
+        },
+        {
+            "tag": "Side Leg Raises (Links)",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "leg_raises_side"
+        },
+        {
+            "tag": "Plie Squats",
+            "time": 60,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "squads_plie"
+        },
+        {
+            "tag": "Donkey Kicks (Rechts)",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "donkey_kicks"
+        },
+        {
+            "tag": "Donkey Kicks (Links)",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "donkey_kicks"
+        }
     ]
-
 }
