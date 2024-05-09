@@ -1,25 +1,84 @@
 {
-    "info" : {
-        "title" : "mei challange",
-        "description" : "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
-        "excersizecount" : 10
+    "info": {
+        "title": "mei challange",
+        "description": "Maak je klaar voor de Mei Challenge! Deze allround workout daagt je uit met een mix van kracht- en cardiotraining om jezelf tot het uiterste te drijven. Voel de adrenaline pompen terwijl je werkt aan een sterker, sneller en fitter lichaam. Doe mee en ontdek de kracht van de Mei Challenge!",
+        "niveau": 4
     },
-    "properties" : {
-        "autoscroll" : false,
-        "skipping" : true,
-        "randomize" : false
+    "properties": {
+        "autoscroll": false,
+        "skipping": true,
+        "randomize": false
     },
     "exercises": [
-        {"tag": "Jumping Lunges", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Push-Ups", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Squats", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Plank", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Mountain Climbers", "time": 45, "tempo": "Snel", "type": "actif", "media": null},
-        {"tag": "Tricep Dips", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Leg Raises", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Superman", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Jump Squats", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null},
-        {"tag": "Russian Twists", "time": 45, "tempo": "Gemiddeld", "type": "actif", "media": null}
+        {
+            "tag": "Jumping Lunges",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "lunges_jumping"
+        },
+        {
+            "tag": "Push-Ups",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "pushups"
+        },
+        {
+            "tag": "Squats",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "squats"
+        },
+        {
+            "tag": "Plank",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "planking"
+        },
+        {
+            "tag": "Mountain Climbers",
+            "time": 45,
+            "tempo": "Snel",
+            "type": "actif",
+            "media": "mountain_climbers"
+        },
+        {
+            "tag": "Tricep Dips",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "tricep_dips"
+        },
+        {
+            "tag": "Leg Raises",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "leg_raises"
+        },
+        {
+            "tag": "Superman",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "superman"
+        },
+        {
+            "tag": "Jump Squats",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "squats_jumping"
+        },
+        {
+            "tag": "Russian Twists",
+            "time": 45,
+            "tempo": "Gemiddeld",
+            "type": "actif",
+            "media": "russian_twists"
+        }
     ]
-
 }
