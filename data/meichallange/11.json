@@ -12,14 +12,14 @@
     "exercises": [
         {
             "tag": "Jumping Jacks",
-            "time": 45,
+            "time": 30,
             "tempo": "Snel",
             "type": "actif",
             "media": "jumping_jacks"
         },
         {
             "tag": "Push-Ups",
-            "time": 45,
+            "time": 30,
             "tempo": "Gemiddeld",
             "type": "actif",
             "media": "pushups"
@@ -33,17 +33,10 @@
         },
         {
             "tag": "Bicep Curls",
-            "time": 45,
+            "time": 55,
             "tempo": "Langzaam",
             "type": "actif",
             "media": "bicep_curls"
-        },
-        {
-            "tag": "Shoulder Press",
-            "time": 45,
-            "tempo": "Langzaam",
-            "type": "actif",
-            "media": "shoulder_press"
         },
         {
             "tag": "Arm Raises",
@@ -53,22 +46,29 @@
             "media": "arm_raises"
         },
         {
+            "tag": "Shoulder Press",
+            "time": 20,
+            "tempo": "Langzaam",
+            "type": "actif",
+            "media": "shoulder_press"
+        },
+        {
             "tag": "Diamond Push-Ups",
-            "time": 45,
+            "time": 15,
             "tempo": "Gemiddeld",
             "type": "actif",
             "media": "pushups_diamond"
         },
         {
             "tag": "Superman",
-            "time": 45,
+            "time": 30,
             "tempo": "Snel",
             "type": "actif",
             "media": "superman"
         },
         {
             "tag": "Shoulder Taps",
-            "time": 45,
+            "time": 35,
             "tempo": "Snel",
             "type": "actif",
             "media": "shoulder_taps"
