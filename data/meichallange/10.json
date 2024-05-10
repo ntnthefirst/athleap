@@ -29,7 +29,7 @@
             "time": 45,
             "tempo": "Snel",
             "type": "actif",
-            "media": "squads_jumping"
+            "media": "squats_jumping"
         },
         {
             "tag": "Lunges",
@@ -71,7 +71,7 @@
             "time": 60,
             "tempo": "Gemiddeld",
             "type": "actif",
-            "media": "squads_plie"
+            "media": "squats_plie"
         },
         {
             "tag": "Donkey Kicks (Rechts)",
